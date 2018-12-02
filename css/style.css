@@ -1,5 +1,6 @@
 html {
   margin-top: 0;
+  font-size: 15px;
 }
 header {
   text-align: left;
@@ -24,27 +25,128 @@ h1 {
   color: white;
   margin-block-start: 0;
   margin-block-end: 0;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 body {
   background-image: linear-gradient(to bottom right, #bdb9ff, #fff);
   font-family: 'Andale Mono', AndaleMono, monospace;
+  font-size: 15px;
+}
+p, ul{
+  text-align: justify;
+  margin: 20px 150px 0 150px;
 }
 blockquote {
   margin: 0 auto;
-  padding: 30px 200px 30px 200px;
+  padding: 50px 200px 50px 200px;
+  border: 0;
+}
+blockquote p, footer {
   text-align: center;
 }
-img {
-  margin-left: 20px;
+a {
+  text-decoration: none;
+}
+.first_img {
+  margin: 0 20px 60px 80px;
+  float: left;
+  width: 20%;
+  max-width: 100%;
+  height: auto;
+}
+.second_img {
+  margin: 0 80px 60px 20px;
+  float: right;
+  width: 20%;
+  max-width: 100%;
+  height: auto;
+}
+.paragraph_one {
+  float: right;
+  margin
+}
+.paragraph_one p {
+  width: 70%;
+  margin-top: 40px;
+}
+.paragraph_two {
   float: left;
 }
-.paragraph {
-  float: right;
+.paragraph_two p {
+  width: 70%;
+  margin-top: 50px;
+}
+#pineapple {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .btn-info{
   background-color: rgb(107, 195, 255);
   color: #fff;
 }
-@media (max-with: 500px) {
+#famous{
+  padding-right: 160px;
+}
+#women {
+  padding-left: 150px;
+}
+ul {
+  margin-bottom: 0;
+}
+#additional {
+  margin-top: 0;
+  padding-right: 300px;
+  float: right;
+}
+.end-block {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.id {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.email-input {
+  float: right;
+  margin: 0 60px 40px 0;
+
+}
+@media (max-width: 1000px) {
+  blockquote {
+    padding: 10px 50px 10px 50px;
+  }
+  blockquote p {
+    margin: 0 50px 0 50px;
+    padding: 10px 50px 10px 50px;
+  }
+  #additional {
+    margin-right: auto;
+  }
+  #famous {
+    padding-right: 0;
+  }
+}
+@media (max-width: 600px) {
+  p {
+    margin: 0;
+    width: 100%;
+  }
+  h1 {
+    font-size: 27px;
+  }
+  .navbar-brand {
+    font-size: 16px;
+  }
+  blockquote {
+    padding: 5px 5px 8px 5px;
+  }
+  blockquote p {
+    margin: 0 20px 0 20px;
+    padding: 5px 5px 8px 5px;
+    font-size: 14px;
+  }
+  #pineapple {
+    display: none;
+  }
 }
