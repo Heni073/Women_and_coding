@@ -2,10 +2,13 @@
 <html>
 <head>
   <header>
-    <title> Women and Coding </title>
-    <h1>WOMEN AND CODING</h1>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/scripts.js"></script>
+    <title> Women and Coding </title>
+    <h1>WOMEN AND CODING</h1>
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -49,23 +52,48 @@
     </nav>
   </header>
 <body>
-  <div class='quote'>
+  <div class="quote">
     <blockquote>
       <p><em>"The word ‘female,’ when inserted in front of something, is always with a note of surprise. Female COO, female pilot, female surgeon — as if the gender implies surprise … One day there won’t be female leaders. There will just be leaders."</em></p>
-      <footer><cite><a href='https://whatwillittake.com/interviews/interview-sheryl-sandberg/'><i> Sheryl Sandberg — Facebook COO and Founder of Leanin.org</i></a></cite></footer>
+      <footer><cite><a href='https://whatwillittake.com/interviews/interview-sheryl-sandberg/' target="_blank"><i> Sheryl Sandberg — Facebook COO and Founder of Leanin.org</i></a></cite></footer>
     </blockquote>
   </div>
-    <div class='paragraph'>
-      <p><img src="./css/Coding-Html-icon.png"/>
-        The world is constantly changing, and its people change with it. Our conception of life, attitude towards differences and diversities has all formed during the years. There are some things that still sound surprising to a lot of people, like pineapple on pizza or women in tech.
-        Nowadays women have more and more opportunities to widen their knowledge of coding and programming, and has the chance to gain experience and job-roles in technological fields, but we still have shortcomings.</p>
+    <div class="paragraph_one">
+      <span><img class="first_img" src="./css/Coding-Html-icon.png"/></span>
+      <p>The world is constantly changing, and its people change with it. Our conception of life, attitude towards differences and diversities have all formed during the years. </p>
+      <p>There are some things that still sound surprising to a lot of people, like pineapple on pizza or women in tech.</p>
+      <p id="pineapple"><img src="https://media3.giphy.com/media/xl1wAaFOmGgOA2hWKc/200w.webp?cid=3640f6095c03ffc13579776d2eb2607b" alt='alternative text' title="Pineapple + Pizza = Pineapple Pizza!"/></p>
+      </div>
+    <div class="paragraph_two">
+      <span><img class="second_img" src="./css/img-two.png"/></span>
+      <p>Nowadays women have more and more opportunities to widen their knowledge in coding and programming, and has the chance to gain experience and job-roles in technological fields. But we still have shortcomings.</p>
       <p>This is why we encourage <strong>YOU</strong> to step up and if you feel like coding is your path in life don't hesitate to make steps towards it. We are here to give you some guidance, and help.</p>
+    </div>
+    <div>
+      <p id="famous"> We listed some of the most famous women who achieved amazing, world-changing things in tech. Read their motivational stories, and we hope they will give you passion for coding!</p>
+      <ul id="women">
+        <li><a href="https://www.atlasobscura.com/articles/how-female-computers-mapped-the-universe-and-brought-america-to-the-moon" target="_blank"><i>Wilhelmina Fleming</i></a><span> - cracked the universe with computation.</span></li>
+        <li><a href="https://www.public.navy.mil/surfor/ddg70/Pages/namesake.aspx#.Wp2Z8pMbP-Z" target="_blank"/> <i>Grace Hopper</i></a><span> - the 'Mother of Computing'</span></li>
+        <li><a href="https://www.nasa.gov/feature/annie-easley-computer-scientist" target="_blank"/><i>Annie Easley</i></a><span> - the woman you have to thank for hybrid car batteries</span></li>
+        <li><a href="https://logicmag.io/02-the-mother-of-all-swipes/" target="_blank"/><i>Joan Ball</i></a><span> - the woman who basically invented online dating</span></li>
+      </ul>
+       <p id='additional'>...and of course many more!</p>
+    </div>
+    <div class="end-block">
       <p>If you have any question browse through our <em>FAQs</em>, or feel free to ask your own question in email by contacting us via <em>womencoding@gmail.com</em></p>
-      <p>Subscribe to our news letter to receive up-to-date posts and articals about Women in Coding</p>
-      <form class='email input'>
-          <input type="email" placeholder="Email">
-        <button type="button" class="btn btn-info">Submit</button>
-      </form>
+      <p class="id">Subscribe to our news letter to receive up-to-date posts and articles about Women in Coding!
+        <span>
+          <form class='email-input'>
+          <input id="input" type="email" placeholder="Email">
+          <button onclick="submit()" type="button" class="btn btn-info">Submit</button></form>
+          <span id="mypopup"</span>
+          <script>
+            function submit() {
+            document.getElementById("mypopup").innerHTML = "Thank you for subscribing!";
+            };
+          </script>
+        </span>
+      </p>
     </div>
 </body>
 </html>
