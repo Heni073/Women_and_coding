@@ -1,83 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-   <header>
-       <title> Women and Coding </title>
-       <h1>WOMEN AND CODING</h1>
-       <link href="css/bootstrap.min.css" rel="stylesheet">
-       <link rel='stylesheet' type='text/css' href='css/style.css'>
-       <nav class="navbar navbar-inverse">
-         <div class="container-fluid">
-           <!-- Brand and toggle get grouped for better mobile display -->
-           <div class="navbar-header">
-                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                   <span class="sr-only">Menu</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                 </button>
-                 <a class="navbar-brand" href="#">Women and Coding <span class="sr-only">(current)</span></a>
-           </div>
-           <!-- Collect the nav links, forms, and other content for toggling -->
-           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-             <ul class="nav navbar-nav">
-               <li class="dropdown">
-                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Basics of Coding <span class="caret"></span></a>
-                 <ul class="dropdown-menu">
-                   <li><a href="#">HTML, CSS, JavaScript</a></li>
-                   <li><a href="#">Test your knowledge!</a></li>
-                 </ul>
-               </li>
-             </ul>
-             <ul class="nav navbar-nav">
-               <li class="dropdown">
-                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
-                 <ul class="dropdown-menu">
-                   <li><a href="#">Useful Apps and Sites</a></li>
-                   <li><a href="#">FAQ</a></li>
-                 </ul>
-               </li>
-             </ul>
-             <form class="navbar-form navbar-right">
-               <div class="form-group">
-                 <input type="text" class="form-control" placeholder="Search">
-               </div>
-               <button type="submit" class="btn btn-default">Search</button>
-             </form>
-           </div><!-- /.navbar-collapse -->
-         </div><!-- /.container-fluid -->
-       </nav>
-     </header>
-
-
-</head>
+  <header>
+    <link href='./css/bootstrap.min.css' rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='./css/style.css'>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/scripts.js"></script>
+    <title> Women and Coding </title>
+    <h1>WOMEN AND CODING</h1>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="./index.html">Women and Coding <span class="sr-only">(current)</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Basics of Coding <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML, CSS, JavaScript</a></li>
+                <li><a href="#">Test your knowledge!</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="./FAQS.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 <body>
-<h1>FAQs</h1>
+<h1 id="FAQs">FAQs</h1>
 <h2>Frequently Asked Questions</h2>
 <hr>
-<div>
+<div class="FAQs">
   <h3>What is Coding?</h3>
   <p>
     Being in area dominated by males, we need females to learn to code and show
     people its not just men who know what coding is.
   </p>
   <h3>Is coding hard?</h3>
-  <p> No coding is not hard at all. You really do not need any previous experience or knowledy of
-    programming before learning to code. the best way people is learn is
+  <p> No coding is not hard at all. You really do not need any previous experience or knowledge of
+    programming before learning to code. The best way people learn is
     to do it themselves and today there are many free resources online available
     to help you get started.
   </p>
-  <h3>What language dhould I start with?</h3>
+  <h3>What language should I start with?</h3>
   <p> Html and css are not programming languages but mark-up languages.
   </p>
-    <h3> Websites that may be useful </h3>
-    <p>
-    <a href="https://www.codecademy.com/" target="_top"></a>
-    <a data-fr-linked="true" href="https://www.codecademy.com/">https://www.codecademy.com/</a>
-  </p>
+    <h3> Are there any websites that may be useful? </h3>
+    <p>Sure there are! Some are listed below, but these aren't the only ones. Browse through google for more!
+      <ul class="websites-list">
+        <table id="websites">
+          <tbody>
+            <tr>
+              <td><li><a href="https://www.codefirstgirls.org.uk/" target="_blank"><img class="website" src="https://techtalentcharter.co.uk/wp-content/uploads/Code-First-red-transparent.png"/></a></li></td>
+              <td><li><a href="https://www.datacamp.com/" target="_blank"><img class="website" src="https://cdn.datacamp.com/main-app/assets/brand/logos/DataCamp_Horizontal_RGB-d196011f63ebda76dc5c9772425cf9541b8639af842d5e5476ef10f2460ed1e4.png"/></a></li></td>
+              <td><li><a href="https://www.codecademy.com/" target="_blank"><img class="website" src="https://web.ntnu.edu.tw/~40247043S/WebQuest/images/codecademy.png"/></a></li></td>
+            </tr>
+            <tr>
+              <td><li><a href="https://codepen.io/" target="_blank"><img class="website" src="https://blog.codepen.io/wp-content/uploads/2012/06/codepen-wordmark-display-inside-black@10x.png"/></a></li></td>
+              <td><li><a href="https://girlswhocode.com/" target="_blank"><img class="website" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/GWC_logo_2016_.png/1200px-GWC_logo_2016_.png"/></a></li></td>
+              <td><li><a href="https://www.w3schools.com/" target="_blank"><img class="website" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/W3Schools_logo.png"/></a></li></td>
+            </tr>
+          </tbody>
+        </table>
+    </ul>
+    </p>
     <h3> Why does coding look difficult?</h3>
-    <p> Because its different from what you are useed to. You will never know if you like something
-      until you try it</p>
-
+    <p> Because it's different from what you are used to. All the numbers, codes, signs might look scray at first, but no need to worry. Once you start learning about coding it will get easier to understand all those data. You will never know if you like something
+      until you try it.</p>
+  </div>
 </body>
+</html>
