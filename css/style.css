@@ -110,7 +110,13 @@ ul {
 .email-input {
   float: right;
   margin: 0 60px 40px 0;
-
+}
+#mypopup {
+  padding: 8px 5px 8px 5px;
+  float: right;
+  background: rgb(147, 188, 255);
+  border: 1px solid black;
+  border-radius: 50% 20% / 10% 40%;
 }
 @media (max-width: 1000px) {
   blockquote {
