@@ -48,3 +48,21 @@ img {
 }
 @media (max-with: 500px) {
 }
+
+.text-center {
+  line-height: 1.4;
+  font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
+}
+
+#img{
+  text-align: center;
+  margin:auto;
+  width:450px;
+  height: 40px;
+  padding-top: 40px;
+}
+
+#top {
+  padding: 270px 250px 75px 250px;
+  font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
+}
