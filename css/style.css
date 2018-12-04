@@ -55,6 +55,9 @@ p, ul {
   margin-top: 5px;
   margin-bottom: 30px;
 }
+hr {
+  border-top: 0;
+}
 h2 {
   font-size: 20px;
   padding-left: 60px;
