@@ -150,11 +150,12 @@ ul {
 }
 .text-center {
   line-height: 1.4;
-  font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
 }
+
 #img {
   text-align: center;
 }
+
 #img img {
   width:40%;
   height: auto;
@@ -162,7 +163,6 @@ ul {
 
 #top {
   margin: 0px 15px 30px 15px;
-  font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
 }
 
 .back {
@@ -172,9 +172,7 @@ ul {
 
 .text-center {
   line-height: 1.4;
-  font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
   padding-top: 50px 00px;
-
 }
 
 h2{
@@ -195,16 +193,17 @@ h2{
 #tops {
   text-align: center;
   padding: 0px 15px 15px 15px;
-  font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
   font-size: 19px;
 
 }
+
 h3{
   font-size: 28px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
 }
+
 #imgone {
   max-width: 100%;
    height: auto;
