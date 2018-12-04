@@ -8,6 +8,19 @@ header {
   background-size: cover;
   display: grid;
 }
+#headerpic {
+  float: left;
+  margin-left: 0;
+  width: 30%;
+}
+#headerpic img {
+  display: inline-block;
+  float: left;
+}
+#womenh, #and, #coding {
+  text-align: center;
+  width: 80%;
+}
 .websites-list {
   padding-left: 0;
 }
