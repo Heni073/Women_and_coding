@@ -159,11 +159,11 @@ ul {
   width:40%;
   height: auto;
 }
+
 #top {
   margin: 5px 150px 30px 150px;
   font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
 }
-
 
 .back {
   text-align: center;
@@ -173,7 +173,7 @@ ul {
 .text-center {
   line-height: 1.4;
   font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
-  padding-top: 50px 60px;
+  padding-top: 50px 00px;
 
 }
 
@@ -194,7 +194,7 @@ h2{
 
 #top {
   text-align: center;
-  padding: 270px 150px 75px 150px;
+  padding: 25px 15px 55px 15px;
   font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
   font-size: 19px;
 }
@@ -312,9 +312,7 @@ h3{
   #pineapple {
     display: none;
   }
-  #top {
-    margin: 10px 20px 0 20px;
-  }
+
   #top h3 {
     text-align: left;
   }
