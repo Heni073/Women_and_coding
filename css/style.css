@@ -159,11 +159,11 @@ ul {
   width:40%;
   height: auto;
 }
+
 #top {
-  margin: 5px 150px 30px 150px;
+  margin: 0px 15px 30px 15px;
   font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
 }
-
 
 .back {
   text-align: center;
@@ -173,7 +173,7 @@ ul {
 .text-center {
   line-height: 1.4;
   font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
-  padding-top: 50px 60px;
+  padding-top: 50px 00px;
 
 }
 
@@ -184,34 +184,32 @@ h2{
   padding: 10px 0px 0px 0px;
 }
 
-#img{
+#image{
   text-align: center;
   margin:auto;
   width:450px;
-  height: 40px;
-  padding-top: 40px;
+  height: 400px;
+  padding-top: 4px;
+  padding-bottom: 10px;
 }
 
-#top {
+#tops {
   text-align: center;
-  padding: 270px 150px 75px 150px;
+  padding: 5px 15px 15px 15px;
   font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
   font-size: 19px;
+
 }
 h3{
   font-size: 28px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
 }
 #imgone {
   max-width: 100%;
    height: auto;
  padding: 50px 150px 35px 150px;
-}
-
-.social {
-  padding: 60px 40px 40px 40px;
-  text-align: center;
 }
 
 .fa {
@@ -317,9 +315,7 @@ h3{
   #pineapple {
     display: none;
   }
-  #top {
-    margin: 10px 20px 0 20px;
-  }
+
   #top h3 {
     text-align: left;
   }
