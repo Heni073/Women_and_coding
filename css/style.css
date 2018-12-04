@@ -186,16 +186,15 @@ h2{
 
 #image{
   text-align: center;
-  margin:auto;
-  width:450px;
-  height: 400px;
-  padding-top: 4px;
-  padding-bottom: 10px;
+  margin: auto;
+  width: 450px;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 #tops {
   text-align: center;
-  padding: 5px 15px 15px 15px;
+  padding: 0px 15px 15px 15px;
   font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
   font-size: 19px;
 
@@ -213,9 +212,8 @@ h3{
 }
 
 .fa {
-  padding: 20px;
+  padding: 20px 20px 20px 20px;
   font-size: 30px;
-  width: 30px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
