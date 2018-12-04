@@ -225,6 +225,11 @@ h3{
   text-align: center;
 }
 
+#lang{
+  font-size: 25px
+
+}
+
 #imgone {
   max-width: 100%;
    height: auto;
