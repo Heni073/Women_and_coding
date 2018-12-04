@@ -188,15 +188,17 @@ h2{
   text-align: center;
   margin:auto;
   width:450px;
-  height: 40px;
-  padding-top: 40px;
+  height: 400px;
+  padding-top: 4px;
+  padding-bottom: 10px;
 }
 
 #top {
   text-align: center;
-  padding: 25px 15px 55px 15px;
+  padding: 5px 15px 15px 15px;
   font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
   font-size: 19px;
+
 }
 h3{
   font-size: 28px;
