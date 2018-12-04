@@ -70,6 +70,7 @@ blockquote {
   margin: 0 auto;
   padding: 50px 200px 50px 200px;
   border: 0;
+  font-size: 22px;
 }
 blockquote p, footer {
   text-align: center;
