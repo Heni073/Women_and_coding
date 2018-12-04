@@ -161,7 +161,7 @@ ul {
 }
 
 #top {
-  margin: 5px 150px 30px 150px;
+  margin: 0px 15px 30px 15px;
   font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
 }
 
@@ -184,7 +184,7 @@ h2{
   padding: 10px 0px 0px 0px;
 }
 
-#img{
+#image{
   text-align: center;
   margin:auto;
   width:450px;
@@ -193,7 +193,7 @@ h2{
   padding-bottom: 10px;
 }
 
-#top {
+#tops {
   text-align: center;
   padding: 5px 15px 15px 15px;
   font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
@@ -204,6 +204,7 @@ h3{
   font-size: 28px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
 }
 #imgone {
   max-width: 100%;
