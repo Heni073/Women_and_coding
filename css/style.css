@@ -15,7 +15,6 @@ header {
   list-style-type: none;
   border-spacing: 20px;
   width: 100%;
-
 }
 #websites td li{
   margin: 0 20px 10px 20px;
@@ -48,13 +47,7 @@ h1 {
 h3 {
   padding-left: 50px;
 }
-#FAQs {
-  text-align: left;
-  padding-left: 60px;
-  background: none;
-  color: black;
-}
-p, ul, .FAQs {
+p, ul {
   text-align: justify;
   margin: 20px 150px 0 150px;
 }
@@ -155,6 +148,21 @@ ul {
   border: 1px solid black;
   border-radius: 50% 20% / 10% 40%;
 }
+.text-center {
+  line-height: 1.4;
+  font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
+}
+#img {
+  text-align: center;
+}
+#img img {
+  width:40%;
+  height: auto;
+}
+#top {
+  margin: 5px 150px 30px 150px;
+  font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
+}
 @media (max-width: 1000px) {
   blockquote {
     padding: 10px 50px 10px 50px;
@@ -173,10 +181,14 @@ ul {
     margin-left: 50px;
     margin-right: 50px;
   }
-}
-.websites-list {
-  margin: 20px 80px 0 80px;
-}
+  .websites-list {
+    margin: 20px 80px 0 80px;
+  }
+  #top {
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 @media (max-width: 600px) {
   p {
     margin: 0 20px 0 20px;
@@ -198,10 +210,10 @@ ul {
   #pineapple {
     display: none;
   }
-  .FAQs {
+  #top {
     margin: 10px 20px 0 20px;
   }
-  .FAQs h3 {
+  #top h3 {
     text-align: left;
   }
   .websites-list {
