@@ -261,12 +261,13 @@ h3{
 }
 }
 .fa {
-  text-align:center;
-  font-size: 70px;
+  padding: 20px;
+  font-size: 30px;
   width: 300px;
-  margin: 50px 20px;
-  border-radius: 600%;
-  padding: 300px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
 
 .fa:hover {
