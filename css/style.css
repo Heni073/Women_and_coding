@@ -257,17 +257,26 @@ h3{
 .social {
   padding: 60px 40px 40px 40px;
   text-align: center;
+  padding: 200px;
+  font-size: 300px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px;
+  border-radius: 500%;
+}
+
 
 }
 }
 .fa {
-  padding: 20px;
-  font-size: 30px;
+  padding: 200px;
+  font-size: 300px;
   width: 300px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+  margin: 50px 20px;
+  border-radius: 500%;
 }
 
 .fa:hover {
