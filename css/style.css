@@ -217,7 +217,7 @@ ul {
 .text-center {
   line-height: 1.4;
   font-family:"Lucida Grande", "Tahoma", "Verdana", "Arial";
-  padding-top: 50px;
+  padding-top: 50px 60px;
 
 }
 
@@ -225,6 +225,7 @@ h2{
   font-weight: bold;
   text-transform: uppercase;
   font-size: 50px;
+  padding: 10px 0px 0px 0px;
 }
 
 #img{
