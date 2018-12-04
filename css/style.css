@@ -37,12 +37,30 @@ header {
   color: rgba(255, 255, 255, 0.5);
 }
 h1 {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   font-family: "Andale Mono", AndaleMono, monospace;
   color: white;
   margin-block-start: 0;
   margin-block-end: 0;
-  margin-top: 60px;
+  text-align: center;
+  font-size: 45px;
+}
+#womenh {
+  padding-top: 40px;
+}
+#and {
+  padding-top: 20px;
+}
+#coding {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.container-fluid {
+  color: rgba(0, 0, 0, 0.5);
+}
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
 }
 h3 {
   padding-left: 50px;
@@ -182,7 +200,7 @@ ul {
 h2{
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 38px;
   padding: 10px 0px 0px 0px;
 }
 
